@@ -1,0 +1,8 @@
+Change-Id: Ic8905ec3e2a8136459d4823f1c6a1cd608b4c671
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 18 Mar 2009 14:03:42 -0700
+Reviewed-on: https://review.source.android.com/9216
+Project: platform/external/strace
+Branch: refs/heads/master
