@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "SVysWGcc",
+        "filename": "Android.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-03-22T01:11:09Z",
+      "side": 1,
+      "message": "we hadn\u0027t regenerated this patch after the MIPS changes, so this diff is bigger than just my change.",
+      "revId": "e10a1e2805e24dd2c59c29dad3316fe58f42b526",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
