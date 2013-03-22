@@ -34,6 +34,24 @@
       "revId": "e10a1e2805e24dd2c59c29dad3316fe58f42b526",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "SV.tW0X8",
+        "filename": "Android.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-03-22T01:18:08Z",
+      "side": 1,
+      "message": "yeah, i just pulled down strace 4.7 to see if they\u0027d done it already, but their changes aren\u0027t in that, or in head either.",
+      "parentUuid": "SVys5.VI",
+      "revId": "e10a1e2805e24dd2c59c29dad3316fe58f42b526",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
