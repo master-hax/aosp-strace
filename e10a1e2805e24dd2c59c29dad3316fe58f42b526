@@ -16,6 +16,24 @@
       "revId": "e10a1e2805e24dd2c59c29dad3316fe58f42b526",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "SVys5.VI",
+        "filename": "Android.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2013-03-22T01:15:05Z",
+      "side": 1,
+      "message": "thanks, I was wondering about that.\n\ncan you ask MIPS to send their stuff upstream or otherwise sort it out?",
+      "parentUuid": "SVysWGcc",
+      "revId": "e10a1e2805e24dd2c59c29dad3316fe58f42b526",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
