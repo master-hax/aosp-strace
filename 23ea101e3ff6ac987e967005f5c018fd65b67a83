@@ -1,0 +1,8 @@
+Verified+1: Elliott Hughes <enh@google.com>
+Code-Review+2: Brian Carlstrom <bdc@google.com>
+Code-Review+1: Pavel Chupin <pavel.v.chupin@intel.com>
+Submitted-by: Elliott Hughes <enh@google.com>
+Submitted-at: Tue, 01 Oct 2013 15:32:06 +0000
+Reviewed-on: https://android-review.googlesource.com/66791
+Project: platform/external/strace
+Branch: refs/heads/master
