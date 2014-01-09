@@ -16,6 +16,24 @@
       "revId": "ed5333b97c8cbe7a37362bfa7812fca9677b4465",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2dd43d2d_50665488",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2014-01-09T18:56:00Z",
+      "side": 1,
+      "message": "seems like it, too bad you have to shell out",
+      "parentUuid": "0dd1393f_a460cc1e",
+      "revId": "ed5333b97c8cbe7a37362bfa7812fca9677b4465",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
