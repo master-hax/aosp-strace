@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cdcac190_0b14280c",
+        "filename": "Android.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-01-10T23:49:57Z",
+      "side": 1,
+      "message": "the PTRACE_PEEKUSER/PTRACE_POKEUSER stuff goes away in upstream strace.",
+      "revId": "02f3b9b55219c3db7b4762a9dcf094972d8dae8e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d4251dd_e204a832",
+        "filename": "Android.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-01-10T23:49:57Z",
+      "side": 1,
+      "message": "this is the only patch we should need for the next strace release. we don\u0027t have the scsi/sg.h header we\u0027d need to build scsi.c. it\u0027s not a uapi header.",
+      "revId": "02f3b9b55219c3db7b4762a9dcf094972d8dae8e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
