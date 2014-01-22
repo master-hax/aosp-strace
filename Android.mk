@@ -116,8 +116,9 @@ else
 endif
 
 arch := $(TARGET_ARCH)
-ifeq ($(TARGET_ARCH),aarch64)
+ifeq ($(TARGET_ARCH),arm64)
     LOCAL_CFLAGS += -DAARCH64=1
+    arch := aarch64
 else ifeq ($(TARGET_ARCH),arm)
     LOCAL_CFLAGS += -DARM=1
     LOCAL_CFLAGS += -DHAVE_STAT64=1
