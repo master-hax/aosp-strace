@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2b4c6fd_a3931990",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-01-30T02:15:41Z",
+      "side": 1,
+      "message": "all three -DHAVE_STAT64\u003d1 lines could be LOCAL_CFLAGS_32 instead.",
+      "revId": "dc6c682a2197796728fce16643c6257477806e2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52811216_fc406dc0",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-01-30T02:15:41Z",
+      "side": 1,
+      "message": "we could just remove this line. i think it made more sense when we only had 32-bit architectures.",
+      "revId": "dc6c682a2197796728fce16643c6257477806e2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
