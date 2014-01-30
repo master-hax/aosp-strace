@@ -51,6 +51,24 @@
       "revId": "dc6c682a2197796728fce16643c6257477806e2e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52811216_7c963dc3",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-01-30T02:43:19Z",
+      "side": 1,
+      "message": "just mips --- notice that this is -U and the others are -D.",
+      "parentUuid": "b297ae5d_a53a08f9",
+      "revId": "dc6c682a2197796728fce16643c6257477806e2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
