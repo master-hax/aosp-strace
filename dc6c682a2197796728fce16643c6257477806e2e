@@ -33,6 +33,24 @@
       "revId": "dc6c682a2197796728fce16643c6257477806e2e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b297ae5d_a53a08f9",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2014-01-30T02:31:37Z",
+      "side": 1,
+      "message": "remove it from all architectures?",
+      "parentUuid": "52811216_fc406dc0",
+      "revId": "dc6c682a2197796728fce16643c6257477806e2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
