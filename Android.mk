@@ -1,6 +1,7 @@
 # Copyright 2006 The Android Open Source Project
 
 LOCAL_PATH := $(my-dir)
+
 include $(CLEAR_VARS)
 
 strace_version := $(shell grep Version $(LOCAL_PATH)/strace.spec | cut -d " " -f 2)
@@ -152,3 +153,21 @@ LOCAL_MODULE_TAGS := debug
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
 
 include $(BUILD_EXECUTABLE)
+
+# -------------------------------------------------------------------------
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := linux/ioctlsort.c
+LOCAL_CFLAGS += -include asm/types.h -include linux/ashmem.h
+LOCAL_CFLAGS += -Wno-unused-parameter
+LOCAL_MODULE := ioctlsort
+LOCAL_MODULE_TAGS := optional
+LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
+include $(BUILD_EXECUTABLE)
+
+.PHONY: update-ioctls
+update-ioctls: $(TARGET_OUT_EXECUTABLES)/ioctlsort
+	adb sync
+	adb shell ioctlsort | tr -d '\r' > external/strace/linux/ioctlent.h
+
+# -------------------------------------------------------------------------
