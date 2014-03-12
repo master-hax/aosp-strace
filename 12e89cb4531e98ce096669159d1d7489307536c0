@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fce81dcd_8ee81dd5",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T16:51:32Z",
+      "side": 1,
+      "message": "(we always have a trailing \\ so we can pipe through |sort or add/remove without introducing needless diffs.)",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9c2ba1c2_d932a8cf",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T16:51:32Z",
+      "side": 1,
+      "message": "are",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9cb9e1da_ce485f4e",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T16:51:32Z",
+      "side": 1,
+      "message": "weird whitespace here.",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fce81dcd_8ebaddc0",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T16:51:32Z",
+      "side": 1,
+      "message": "what\u0027s this for?",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
