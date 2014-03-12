@@ -67,6 +67,24 @@
       "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dce519f4_a4ec2836",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-03-12T16:59:53Z",
+      "side": 1,
+      "message": "test executables are also copied and install in /system/xbin/. This makes stuff a lot easier  as I don\u0027t have to code the copying. But you need to do an adb sync after building so having it here is for convenience. The confirmation check is because maybe you don\u0027t wan\u0027t to sync automatically (e.g. figure out you build the wrong target).",
+      "parentUuid": "fce81dcd_8ebaddc0",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
