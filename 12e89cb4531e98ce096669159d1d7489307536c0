@@ -85,6 +85,24 @@
       "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9c2ba1c2_f9120ce0",
+        "filename": "test/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T17:08:55Z",
+      "side": 1,
+      "message": "just put an explicit \"adb sync\" in the run-strace-tests target. that\u0027s what we do elsewhere. anyone who doesn\u0027t have ANDROID_SERIAL set is going to have a bad time anyway.",
+      "parentUuid": "dce519f4_a4ec2836",
+      "revId": "12e89cb4531e98ce096669159d1d7489307536c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
