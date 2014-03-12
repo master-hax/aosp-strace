@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9cb9e1da_700ac8f2",
+        "filename": "test/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-03-12T18:25:30Z",
+      "side": 1,
+      "message": "ah, now i see why it\u0027s a separate target. interesting. i don\u0027t really like it (because it\u0027s a bit subtle) but i suspect the other choices are all worse :-)",
+      "revId": "18612f277eb2aec2d0f647c4b936d9f49330a434",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
