@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcb1990e_a97ad4fd",
+        "filename": "file.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1029,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2014-03-17T20:20:35Z",
+      "side": 1,
+      "message": "This isn\u0027t quite right because the below stat64 doesn\u0027t actually match the real stat64 structure.",
+      "range": {
+        "startLine": 1029,
+        "startChar": 12,
+        "endLine": 1029,
+        "endChar": 19
+      },
+      "revId": "d25213aaa27227093398f8537a9e5c39c2e536ea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
