@@ -1026,7 +1026,7 @@ printstat(struct tcb *tcp, long addr)
 # define printstat printstat64
 #endif
 
-#if !defined HAVE_STAT64 && defined X86_64
+#if defined ANDROID || (!defined HAVE_STAT64 && defined X86_64)
 /*
  * Linux x86_64 has unified `struct stat' but its i386 biarch needs
  * `struct stat64'.  Its <asm-i386/stat.h> definition expects 32-bit `long'.
