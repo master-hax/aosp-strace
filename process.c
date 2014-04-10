@@ -556,6 +556,7 @@ sys_clone(struct tcb *tcp)
 		if (flags & CLONE_PARENT_SETTID)
 			tprintf(", parent_tidptr=%#lx", tcp->u_arg[ARG_PTID]);
 		if (flags & CLONE_SETTLS) {
+			int print_raw_tls = 1;
 #if defined I386 || defined X86_64 || defined X32
 # ifndef I386
 			if (current_personality == 1)
@@ -569,10 +570,11 @@ sys_clone(struct tcb *tcp)
 						tprints("...}");
 					else
 						print_ldt_entry(&copy);
+					print_raw_tls = 0;
 				}
 			}
-			else
 #endif /* I386 || X86_64 || X32 */
+			if (print_raw_tls)
 				tprintf(", tls=%#lx", tcp->u_arg[ARG_TLS]);
 		}
 		if (flags & (CLONE_CHILD_SETTID|CLONE_CHILD_CLEARTID))
