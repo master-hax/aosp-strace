@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59ee9b35_8ef8835d",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-04-15T19:09:12Z",
+      "side": 1,
+      "message": "Does this actually ever pass? Based on the stat test it looks like you\u0027re printing multiple lines and grepping them together file will probably not yield the result you expect.\n\nIn general, I wonder if this is good enough to test the trace. Wouldn\u0027t you want to check that a specific call was a made? is output matching enough?",
+      "range": {
+        "startLine": 90,
+        "startChar": 4,
+        "endLine": 90,
+        "endChar": 64
+      },
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f9c3cfc8_2a605b68",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-04-15T19:09:12Z",
+      "side": 1,
+      "message": "Why is this needed?",
+      "range": {
+        "startLine": 97,
+        "startChar": 30,
+        "endLine": 97,
+        "endChar": 47
+      },
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59ee9b35_ee082fbf",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-04-15T19:09:12Z",
+      "side": 1,
+      "message": "Do we actually expect both (32 and 64) to pass on the same device?",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 16
+      },
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
