@@ -25,6 +25,24 @@
     },
     {
       "key": {
+        "uuid": "19750377_3b60bf8f",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1011068
+      },
+      "writtenOn": "2014-04-16T05:00:06Z",
+      "side": 1,
+      "message": "Hi,\nthe test case for stat needs to check whether the stat/fstat output in strace is correct or not. So the stat test is trying to print the exactly same thing (strace-log-$*-output here) as strace it self does (One line in strace-log-$*).\n\nThe test passed on x86_64 emulator. I suppose it\u0027s enough for the stat testing. What I a not sure is whether the test case could work on ARM/ARM64/MIPS.",
+      "parentUuid": "59ee9b35_8ef8835d",
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f9c3cfc8_2a605b68",
         "filename": "test/Android.mk",
         "patchSetId": 4
@@ -48,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "994e5355_944b4af4",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1011068
+      },
+      "writtenOn": "2014-04-16T05:00:06Z",
+      "side": 1,
+      "message": "Let\u0027s take vfork as example. The test case will become strace-vfork32-test and strace-vfork64-test. While the result pattern is still vfork-expected-output. So we have two choice:\n1. split the expected pattern to vfork32-expected-output and vfork64-expected-output. Which I didn\u0027t chose. Because most test case expect same output for 32bit test and 64bit.\n2.  Use one expected pattern for 32/64bit test. So I need to filter out 32/64 in test case.",
+      "parentUuid": "f9c3cfc8_2a605b68",
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "59ee9b35_ee082fbf",
         "filename": "test/Android.mk",
         "patchSetId": 4
@@ -65,6 +101,24 @@
         "endLine": 116,
         "endChar": 16
       },
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19750377_1bbce398",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1011068
+      },
+      "writtenOn": "2014-04-16T05:00:06Z",
+      "side": 1,
+      "message": "We expect both passed on 64bit environment. But we shouldn\u0027t run 64bit testing on 32bit environment.\n\nYes. The change need be updated. I will update it after I back to office.",
+      "parentUuid": "59ee9b35_ee082fbf",
       "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
