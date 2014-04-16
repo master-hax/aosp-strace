@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "993733c3_8cf98768",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-04-16T16:07:47Z",
+      "side": 1,
+      "message": "can we just pull out the stat-specific bit for now, and worry about that when we have an upstream stat test?\n\n(i actually wonder whether we should move this testing stuff into a script and just call the script from the makefile. btu we can do that another time.)\n\non the broader subject of testing, one thing i was thinking of was a single \"syscall\" binary that parses its arguments and makes a syscall. so you can say something like:\n\n  syscall SYS_epoll_ctl -1 EPOLL_CTL_DEL -1 NULL\n\nand check the output. obvious problems: how do you translate the constants? (or is this still useful without the constants? note that you can\u0027t just hardcode 2 or whatever if you want to work on all architectures. even with just the architectures we support, mips has a lot of differences.) how do you test non-failure cases where you need to supply real arguments? it\u0027s easy to imagine passing string arguments, but how would you do structs?\n\nstill, it would be interesting to think about the tests we could write with this and whether even if they only solve a tiny part of the test problem they\u0027d still be useful. probably better brought up on the strace-devel mailing list rather than here though...",
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "59ee9b35_8ef8835d",
         "filename": "test/Android.mk",
         "patchSetId": 4
