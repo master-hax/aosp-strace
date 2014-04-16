@@ -43,6 +43,24 @@
     },
     {
       "key": {
+        "uuid": "59585b1a_cf961d39",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-04-16T10:58:11Z",
+      "side": 1,
+      "message": "Hmmm... I was actually thinking that the tests should verify the trace (well part of it). Checking just the output doesn\u0027t seem ideal as the trace itself could be different than the expected one. (i.e. looks to me that this tests that strace  runs the program correctly not that it produces the right trace).\n\nOnce the stat.c test is here I can help with verification on the other arch.",
+      "parentUuid": "19750377_3b60bf8f",
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f9c3cfc8_2a605b68",
         "filename": "test/Android.mk",
         "patchSetId": 4
@@ -78,6 +96,24 @@
       "side": 1,
       "message": "Let\u0027s take vfork as example. The test case will become strace-vfork32-test and strace-vfork64-test. While the result pattern is still vfork-expected-output. So we have two choice:\n1. split the expected pattern to vfork32-expected-output and vfork64-expected-output. Which I didn\u0027t chose. Because most test case expect same output for 32bit test and 64bit.\n2.  Use one expected pattern for 32/64bit test. So I need to filter out 32/64 in test case.",
       "parentUuid": "f9c3cfc8_2a605b68",
+      "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "393d679f_ceeb83cd",
+        "filename": "test/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1022077
+      },
+      "writtenOn": "2014-04-16T10:58:11Z",
+      "side": 1,
+      "message": "Thanks! I forgot about 32/64 addition.",
+      "parentUuid": "994e5355_944b4af4",
       "revId": "8ced122e0ec67d3244effb24f2f51cba6090c63f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
