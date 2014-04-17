@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "45586f41_fc7c9142",
+        "filename": "test/Android.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-04-17T20:25:30Z",
+      "side": 1,
+      "message": "yeah, presumably this doesn\u0027t work if you\u0027re building for a 32-bit device?",
+      "revId": "ee295a46deb10e5dd7055f30202fc538660c52eb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
