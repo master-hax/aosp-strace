@@ -16,6 +16,24 @@
       "revId": "ee295a46deb10e5dd7055f30202fc538660c52eb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "853507d4_7c21c637",
+        "filename": "test/Android.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-04-17T20:38:17Z",
+      "side": 1,
+      "message": "it was _running_, not building, that i think must be broken for a 32-bit target... how does \"run-strace-tests\" work there?",
+      "parentUuid": "45586f41_fc7c9142",
+      "revId": "ee295a46deb10e5dd7055f30202fc538660c52eb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
