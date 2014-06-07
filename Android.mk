@@ -20,11 +20,12 @@ LOCAL_PATH := $(call my-dir)
 # To update:
 #
 
+#  git remote add strace git://git.code.sf.net/p/strace/code
 #  git fetch strace
 #  git merge strace/master
 #  mm -j32
 #  # (Make any necessary Android.mk changes and test the new strace.)
-#  git push
+#  git push aosp HEAD:master
 #
 #  # Now commit any necessary Android.mk changes like normal:
 #  repo start post-sync .
