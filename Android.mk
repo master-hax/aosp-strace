@@ -74,10 +74,13 @@ LOCAL_SRC_FILES := \
     system.c \
     term.c \
     time.c \
+    unwind.c \
     util.c \
     vsprintf.c \
 
-LOCAL_SHARED_LIBRARIES :=
+LOCAL_SHARED_LIBRARIES := \
+    libunwind \
+    libunwind-ptrace \
 
 LOCAL_CFLAGS := \
     -DGETGROUPS_T=gid_t \
@@ -145,6 +148,7 @@ LOCAL_CFLAGS := \
     -DSIZEOF_LONG_LONG=8 \
     -DSTDC_HEADERS=1 \
     -DSTRACE_KNOWS_ONLY_EABI=1 \
+    -DUSE_LIBUNWIND=1 \
     -D_LFS64_LARGEFILE=1 \
 
 LOCAL_CFLAGS += -D_GNU_SOURCE=1 -D_POSIX_SOURCE=1
@@ -172,7 +176,8 @@ LOCAL_CFLAGS += \
     -Wno-sign-compare \
 
 LOCAL_C_INCLUDES := \
-    $(LOCAL_PATH)/linux
+    $(LOCAL_PATH)/linux \
+    external/libunwind/include \
 
 LOCAL_C_INCLUDES_arm := $(LOCAL_PATH)/linux/arm
 LOCAL_C_INCLUDES_arm64 := $(LOCAL_PATH)/linux/aarch64
