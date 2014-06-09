@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f33447f_347b819b",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2014-06-09T05:49:33Z",
+      "side": 1,
+      "message": "not\n\ngit push aosp HEAD:refs/for/master\n\nto go via gerrit code review?",
+      "range": {
+        "startLine": 28,
+        "startChar": 3,
+        "endLine": 28,
+        "endChar": 28
+      },
+      "revId": "ac8e380bb50b0165477ff2ba2908f80e5d63f0cc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
