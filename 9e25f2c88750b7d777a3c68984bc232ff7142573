@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50ee78c7_709daeca",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-10-03T18:06:54Z",
+      "side": 1,
+      "message": "wasn\u0027t obvious to me how to try to find these.",
+      "revId": "9e25f2c88750b7d777a3c68984bc232ff7142573",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "30666437_1e5f0a69",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-10-03T18:06:54Z",
+      "side": 1,
+      "message": "i didn\u0027t even try to go through the HAVE_DECL_* stuff because there are hundreds of them.",
+      "revId": "9e25f2c88750b7d777a3c68984bc232ff7142573",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
