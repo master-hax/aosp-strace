@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1b3f6c_b3953816",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2014-11-08T01:28:50Z",
+      "side": 1,
+      "message": "git log --pretty\u003doneline won\u0027t like this.",
+      "revId": "b9904dc58693ec4a9b6fca95221b54b0af64db73",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1b3f6c_7373208b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2014-11-08T01:28:50Z",
+      "side": 1,
+      "message": "bypass?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 2
+      },
+      "revId": "b9904dc58693ec4a9b6fca95221b54b0af64db73",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
