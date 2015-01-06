@@ -45,14 +45,31 @@ include $(CLEAR_VARS)
 strace_version := $(shell grep Version $(LOCAL_PATH)/strace.spec | cut -d " " -f 2)
 
 LOCAL_SRC_FILES := \
+    access.c \
+    affinity.c \
     aio.c \
     bjm.c \
     block.c \
+    cacheflush.c \
+    capability.c \
+    chdir.c \
+    chmod.c \
+    clone.c \
     count.c \
     desc.c \
     dirent.c \
+    execve.c \
+    exit.c \
+    fadvise.c \
+    fallocate.c \
     fanotify.c \
+    fchownat.c \
     file.c \
+    futex.c \
+    getcpu.c \
+    getcwd.c \
+    get_robust_list.c \
+    hostname.c \
     inotify.c \
     io.c \
     ioctl.c \
@@ -61,30 +78,59 @@ LOCAL_SRC_FILES := \
     kexec.c \
     keyctl.c \
     ldt.c \
+    link.c \
     loop.c \
+    lseek.c \
     mem.c \
+    mknod.c \
+    mount.c \
     mtd.c \
     net.c \
+    open.c \
     pathtrace.c \
+    personality.c \
+    prctl.c \
+    printmode.c \
     process.c \
+    process_vm.c \
     ptp.c \
     quota.c \
+    readahead.c \
+    readlink.c \
     reboot.c \
+    renameat.c \
     resource.c \
+    sched.c \
     scsi.c \
     signal.c \
     sock.c \
     socketutils.c \
+    sram_alloc.c \
     statfs.c \
     strace.c \
     stream.c \
+    swapon.c \
+    sync_file_range.c \
     syscall.c \
+    sysctl.c \
     sysinfo.c \
-    system.c \
+    syslog.c \
+    sysmips.c \
     term.c \
     time.c \
+    truncate.c \
+    uid16.c \
+    uid.c \
+    umask.c \
+    umount.c \
+    uname.c \
     util.c \
+    utime.c \
+    utimes.c \
+    v4l2.c \
     vsprintf.c \
+    wait.c \
+    xattr.c \
 
 LOCAL_SHARED_LIBRARIES :=
 
@@ -140,6 +186,7 @@ LOCAL_CFLAGS := \
     -DHAVE_STDBOOL_H=1 \
     -DHAVE_STRERROR=1 \
     -DHAVE_STRUCT_FLOCK64=1 \
+    -DHAVE_STRUCT_MMSGHDR=1 \
     -DHAVE_STRUCT_MSGHDR_MSG_CONTROL=1 \
     -DHAVE_STRUCT_SIGCONTEXT=1 \
     -DHAVE_STRUCT_SIGEVENT__SIGEV_UN__PAD=1 \
@@ -233,7 +280,7 @@ update-ioctls:
 	rm external/strace/ioctls.h external/strace/ioctldefs.h
 	# Run the ioctlsort tool on the target to generate the one file we do want to check in.
 	adb sync
-	adb shell ioctlsort | tr -d '\r' > external/strace/linux/ioctlent.h
+	adb shell ioctlsort | tr -d '\r' | sed 's/^\([[:space:]]*{\)"[^"]\+",[[:space:]]*/\1/' | sort -u -k2,2 -k1,1 > external/strace/linux/ioctlent.h
 	# Rebuild strace with the new "ioctlent.h".
 	ONE_SHOT_MAKEFILE=external/strace/Android.mk make -f build/core/main.mk
 
@@ -242,7 +289,7 @@ update-ioctls:
 # when updating strace's list of ioctls.
 ifneq (,$(filter $(TARGET_OUT_EXECUTABLES)/ioctlsort,$(MAKECMDGOALS)))
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := linux/ioctlsort.c
+LOCAL_SRC_FILES := ioctlsort.c
 LOCAL_CFLAGS += -include asm/types.h -include linux/ashmem.h
 LOCAL_CFLAGS += -Wno-unused-parameter
 LOCAL_MODULE := ioctlsort
