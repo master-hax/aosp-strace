@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e4c498a_ea35e3f6",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2015-01-06T20:26:48Z",
+      "side": 1,
+      "message": "Does this work, it looks like ioctlsort.c is still in the linux sub directory?",
+      "range": {
+        "startLine": 292,
+        "startChar": 19,
+        "endLine": 292,
+        "endChar": 30
+      },
+      "revId": "0bcedd52708452665fd06db6a87d2f6c2d4f76c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
