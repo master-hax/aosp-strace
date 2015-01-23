@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b70bb17_0e242c19",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 1041673
+      },
+      "writtenOn": "2015-01-23T07:26:29Z",
+      "side": 1,
+      "message": "isn\u0027t host built against glibc?",
+      "revId": "992aba79f1d767db46e15c1d83152bb515c2de12",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
