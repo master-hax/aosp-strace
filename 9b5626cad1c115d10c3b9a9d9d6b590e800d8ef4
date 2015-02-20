@@ -1,0 +1,7 @@
+Code-Review+2: Elliott Hughes <enh@google.com>
+Verified+1: Elliott Hughes <enh@google.com>
+Submitted-by: Elliott Hughes <enh@google.com>
+Submitted-at: Fri, 20 Feb 2015 17:15:48 +0000
+Reviewed-on: https://android-review.googlesource.com/133971
+Project: platform/external/strace
+Branch: refs/heads/master
