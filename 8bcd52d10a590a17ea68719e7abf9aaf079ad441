@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "66de785c_3111a856",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1003284
+      },
+      "writtenOn": "2015-03-19T00:27:47Z",
+      "side": 1,
+      "message": "Yes, that is correct",
+      "parentUuid": "2612c0d8_afdadd9d",
+      "revId": "8bcd52d10a590a17ea68719e7abf9aaf079ad441",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "460fb4b1_13047641",
         "filename": "Android.mk",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-03-19T00:14:12Z",
       "side": 1,
       "message": "but i didn\u0027t know whether N64 is true for mips64?",
+      "revId": "8bcd52d10a590a17ea68719e7abf9aaf079ad441",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "66de785c_b113585a",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003284
+      },
+      "writtenOn": "2015-03-19T00:27:47Z",
+      "side": 1,
+      "message": "mips64 is N64 so this should have -DLINUX_MIPSN64\u003d1",
+      "parentUuid": "460fb4b1_13047641",
       "revId": "8bcd52d10a590a17ea68719e7abf9aaf079ad441",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
