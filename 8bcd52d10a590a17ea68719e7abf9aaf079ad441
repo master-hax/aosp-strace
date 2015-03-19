@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2612c0d8_afdadd9d",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-03-19T00:14:12Z",
+      "side": 1,
+      "message": "i think this is right...",
+      "revId": "8bcd52d10a590a17ea68719e7abf9aaf079ad441",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "460fb4b1_13047641",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-03-19T00:14:12Z",
+      "side": 1,
+      "message": "but i didn\u0027t know whether N64 is true for mips64?",
+      "revId": "8bcd52d10a590a17ea68719e7abf9aaf079ad441",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
