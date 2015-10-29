@@ -1,0 +1,7 @@
+Code-Review+2: Elliott Hughes <enh@google.com>
+Verified+1: Mike Frysinger <vapier@google.com>
+Submitted-by: Mike Frysinger <vapier@google.com>
+Submitted-at: Thu, 29 Oct 2015 21:15:09 +0000
+Reviewed-on: https://android-review.googlesource.com/179340
+Project: platform/external/strace
+Branch: refs/heads/master
