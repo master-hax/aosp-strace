@@ -1,3 +1,4 @@
+<<<<<<< HEAD   (6967bc Merge "support building w/out system shm/sem/ipc/msg headers)
 /*
  * Copyright (c) 1993 Ulrich Pegelow <pegelow@moorea.uni-muenster.de>
  * Copyright (c) 1993 Branko Lankester <branko@hacktic.nl>
@@ -430,3 +431,5 @@ SYS_FUNC(mq_getsetattr)
 		printmqattr(tcp, tcp->u_arg[2]);
 	return 0;
 }
+=======
+>>>>>>> BRANCH (bab4ef tests: add ksysent.test)
