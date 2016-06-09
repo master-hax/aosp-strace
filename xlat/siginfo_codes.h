@@ -6,28 +6,28 @@
 # define SI_KERNEL 0x80
 #endif
 #if !(defined(SI_QUEUE) || (defined(HAVE_DECL_SI_QUEUE) && HAVE_DECL_SI_QUEUE))
-# define SI_QUEUE -1
+# define SI_QUEUE (-1)
 #endif
 #if !(defined(SI_TIMER) || (defined(HAVE_DECL_SI_TIMER) && HAVE_DECL_SI_TIMER))
-# define SI_TIMER -2
+# define SI_TIMER (-2)
 #endif
 #if !(defined(SI_MESGQ) || (defined(HAVE_DECL_SI_MESGQ) && HAVE_DECL_SI_MESGQ))
-# define SI_MESGQ -3
+# define SI_MESGQ (-3)
 #endif
 #if !(defined(SI_ASYNCIO) || (defined(HAVE_DECL_SI_ASYNCIO) && HAVE_DECL_SI_ASYNCIO))
-# define SI_ASYNCIO -4
+# define SI_ASYNCIO (-4)
 #endif
 #if !(defined(SI_SIGIO) || (defined(HAVE_DECL_SI_SIGIO) && HAVE_DECL_SI_SIGIO))
-# define SI_SIGIO -5
+# define SI_SIGIO (-5)
 #endif
 #if !(defined(SI_TKILL) || (defined(HAVE_DECL_SI_TKILL) && HAVE_DECL_SI_TKILL))
-# define SI_TKILL -6
+# define SI_TKILL (-6)
 #endif
 #if !(defined(SI_DETHREAD) || (defined(HAVE_DECL_SI_DETHREAD) && HAVE_DECL_SI_DETHREAD))
-# define SI_DETHREAD -7
+# define SI_DETHREAD (-7)
 #endif
 #if !(defined(SI_ASYNCNL) || (defined(HAVE_DECL_SI_ASYNCNL) && HAVE_DECL_SI_ASYNCNL))
-# define SI_ASYNCNL -60
+# define SI_ASYNCNL (-60)
 #endif
 
 #ifdef IN_MPERS
