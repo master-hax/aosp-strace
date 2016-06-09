@@ -27,7 +27,7 @@
 # define SI_DETHREAD -7
 #endif
 #if !(defined(SI_ASYNCNL) || (defined(HAVE_DECL_SI_ASYNCNL) && HAVE_DECL_SI_ASYNCNL))
-# define SI_ASYNCNL -60
+# define SI_ASYNCNL (-60)
 #endif
 
 #ifdef IN_MPERS

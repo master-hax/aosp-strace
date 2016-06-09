@@ -424,7 +424,7 @@ extern const struct xlat whence_codes[];
 #define IOCTL_NUMBER_HANDLED 1
 #define IOCTL_NUMBER_STOP_LOOKUP 010
 
-#define indirect_ipccall(tcp) (tcp->s_ent->sys_flags & TRACE_INDIRECT_SUBCALL)
+#define indirect_ipccall(tcp) ((tcp)->s_ent->sys_flags & TRACE_INDIRECT_SUBCALL)
 
 #if defined(ARM) || defined(AARCH64) \
  || defined(I386) || defined(X32) || defined(X86_64) \
