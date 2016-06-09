@@ -166,7 +166,7 @@ print_u64(const char *name, uint64_t value)
 		tprints(" /* UINT64_MAX */");
 }
 
-#define print_member_u64(obj, name) print_u64(#name, obj->name)
+#define print_member_u64(obj, name) print_u64(#name, (obj)->name)
 
 static void
 btrfs_print_balance_args(const char *name, const struct btrfs_balance_args *bba)
