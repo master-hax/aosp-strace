@@ -120,7 +120,7 @@
 # define BTRFS_STRING_ITEM_KEY 253
 #endif
 #if !(defined(UINT32_MAX) || (defined(HAVE_DECL_UINT32_MAX) && HAVE_DECL_UINT32_MAX))
-# define UINT32_MAX -1U
+# define UINT32_MAX (-1U)
 #endif
 
 #ifdef IN_MPERS

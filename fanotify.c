@@ -34,7 +34,7 @@
 # define FAN_ALL_CLASS_BITS (FAN_CLASS_NOTIF | FAN_CLASS_CONTENT | FAN_CLASS_PRE_CONTENT)
 #endif
 #ifndef FAN_NOFD
-# define FAN_NOFD -1
+# define FAN_NOFD (-1)
 #endif
 
 SYS_FUNC(fanotify_init)
