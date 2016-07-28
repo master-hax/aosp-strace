@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f67cda0_6d14119c",
+        "filename": "xlat/btrfs_tree_objectids.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-07-28T22:08:47Z",
+      "side": 1,
+      "message": "this is a generated file. upstream is going to want you to fix the _script_. (but isn\u0027t this a false positive anyway, since it\u0027s just an integer literal?)",
+      "revId": "0dcee058c436d36ede34617880f6ed1be3c17cf9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
