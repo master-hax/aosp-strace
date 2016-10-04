@@ -74,8 +74,9 @@ LOCAL_SRC_FILES := \
     fetch_struct_flock.c \
     fetch_struct_mmsghdr.c \
     fetch_struct_msghdr.c \
+    fetch_struct_stat.c \
+    fetch_struct_stat64.c \
     fetch_struct_statfs.c \
-    file.c \
     file_handle.c \
     file_ioctl.c \
     flock.c \
@@ -121,6 +122,7 @@ LOCAL_SRC_FILES := \
     net.c \
     netlink.c \
     numa.c \
+    oldstat.c \
     open.c \
     pathtrace.c \
     perf.c \
@@ -131,6 +133,7 @@ LOCAL_SRC_FILES := \
     print_msgbuf.c \
     print_sigevent.c \
     print_statfs.c \
+    print_struct_stat.c \
     print_time.c \
     print_timex.c \
     printmode.c \
@@ -159,6 +162,8 @@ LOCAL_SRC_FILES := \
     socketcall.c \
     socketutils.c \
     sram_alloc.c \
+    stat.c \
+    stat64.c \
     statfs.c \
     statfs64.c \
     strace.c \
