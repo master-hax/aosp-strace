@@ -24,9 +24,14 @@ LOCAL_SRC_FILES := \
     access.c \
     affinity.c \
     aio.c \
+    basic_filters.c \
+    bind.c \
     bjm.c \
     block.c \
     bpf.c \
+    bpf_filter.c \
+    bpf_seccomp_filter.c \
+    bpf_sock_filter.c \
     btrfs.c \
     cacheflush.c \
     capability.c \
@@ -41,6 +46,7 @@ LOCAL_SRC_FILES := \
     dm.c \
     dyxlat.c \
     epoll.c \
+    error_prints.c \
     evdev.c \
     eventfd.c \
     execve.c \
@@ -49,8 +55,9 @@ LOCAL_SRC_FILES := \
     fanotify.c \
     fchownat.c \
     fcntl.c \
-    fetch_seccomp_fprog.c \
+    fetch_bpf_fprog.c \
     fetch_struct_flock.c \
+    fetch_struct_keyctl_kdf_params.c \
     fetch_struct_mmsghdr.c \
     fetch_struct_msghdr.c \
     fetch_struct_stat.c \
@@ -58,6 +65,7 @@ LOCAL_SRC_FILES := \
     fetch_struct_statfs.c \
     file_handle.c \
     file_ioctl.c \
+    filter_qualify.c \
     flock.c \
     fstatfs.c \
     fstatfs64.c \
@@ -86,6 +94,7 @@ LOCAL_SRC_FILES := \
     keyctl.c \
     ldt.c \
     link.c \
+    listen.c \
     lookup_dcookie.c \
     loop.c \
     lseek.c \
@@ -100,10 +109,19 @@ LOCAL_SRC_FILES := \
     mtd.c \
     net.c \
     netlink.c \
+    netlink_crypto.c \
+    netlink_inet_diag.c \
+    netlink_netlink_diag.c \
+    netlink_packet_diag.c \
+    netlink_route.c \
+    netlink_selinux.c \
+    netlink_smc_diag.c \
     netlink_sock_diag.c \
+    netlink_unix_diag.c \
     nlattr.c \
     nsfs.c \
     numa.c \
+    number_set.c \
     oldstat.c \
     open.c \
     pathtrace.c \
@@ -113,6 +131,8 @@ LOCAL_SRC_FILES := \
     poll.c \
     prctl.c \
     print_dev_t.c \
+    print_group_req.c \
+    print_ifindex.c \
     print_mq_attr.c \
     print_msgbuf.c \
     print_sigevent.c \
@@ -129,7 +149,6 @@ LOCAL_SRC_FILES := \
     process.c \
     process_vm.c \
     ptp.c \
-    qualify.c \
     quota.c \
     readahead.c \
     readlink.c \
@@ -137,6 +156,19 @@ LOCAL_SRC_FILES := \
     renameat.c \
     resource.c \
     rtc.c \
+    rtnl_addr.c \
+    rtnl_addrlabel.c \
+    rtnl_dcb.c \
+    rtnl_link.c \
+    rtnl_mdb.c \
+    rtnl_neigh.c \
+    rtnl_neightbl.c \
+    rtnl_netconf.c \
+    rtnl_nsid.c \
+    rtnl_route.c \
+    rtnl_rule.c \
+    rtnl_tc.c \
+    rtnl_tc_action.c \
     rt_sigframe.c \
     rt_sigreturn.c \
     sched.c \
@@ -145,6 +177,7 @@ LOCAL_SRC_FILES := \
     sendfile.c \
     sg_io_v3.c \
     sg_io_v4.c \
+    shutdown.c \
     sigaltstack.c \
     signal.c \
     signalfd.c \
@@ -160,6 +193,7 @@ LOCAL_SRC_FILES := \
     statfs64.c \
     statx.c \
     strace.c \
+    string_to_uint.c \
     swapon.c \
     sync_file_range.c \
     sync_file_range2.c \
@@ -173,6 +207,7 @@ LOCAL_SRC_FILES := \
     times.c \
     truncate.c \
     ubi.c \
+    ucopy.c \
     uid16.c \
     uid.c \
     umask.c \
