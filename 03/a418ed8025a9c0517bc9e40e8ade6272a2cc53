@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Christopher Ferris <cferris@google.com>
+Verified+1: Elliott Hughes <enh@google.com>
+Submitted-by: Elliott Hughes <enh@google.com>
+Submitted-at: Sat, 16 Jun 2018 00:25:14 +0000
+Reviewed-on: https://android-review.googlesource.com/705866
+Project: platform/external/strace
+Branch: refs/heads/master
