@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7066c388_74dc5fc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2022-10-08T16:52:53Z",
+      "side": 1,
+      "message": "by editing the change i invalidated my +2 :-( +cferris for +2...",
+      "revId": "616f77ee7e55ec7c36e4c61c312957bfc7d4a4d3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
