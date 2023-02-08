@@ -240,6 +240,8 @@ cc_binary {
         "xattr.c",
         "xlat.c",
         "xmalloc.c",
+	"unwind.c",
+	"unwind-libunwindstack.cpp",
     ],
 
     // We have "config.h", but since we're using one file for both LP32 and LP64,
@@ -247,6 +249,9 @@ cc_binary {
     cflags: ["-DHAVE_CONFIG_H"] + [
         "-DSIZEOF_KERNEL_LONG_T=SIZEOF_LONG",
         "-DSIZEOF_OFF_T=SIZEOF_LONG",
+	"-DENABLE_STACKTRACE",
+	"-DUSE_UNWINDER=\"libunwindstack\"",
+
     ] + [
         "-Wall",
         "-Werror",
@@ -309,6 +314,8 @@ cc_binary {
             ],
         },
     },
+
+    shared_libs: ["libunwindstack"],
 
     name: "strace",
 
