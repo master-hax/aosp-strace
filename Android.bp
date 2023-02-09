@@ -17,7 +17,7 @@ license {
     ],
 }
 
-cc_binary {
+cc_defaults {
 
     srcs: [
         "access.c",
@@ -317,6 +317,24 @@ cc_binary {
 
     shared_libs: ["libunwindstack"],
 
-    name: "strace",
+    name: "strace_defaults",
+    installable: true,
 
+}
+
+cc_binary {
+    name: "strace32",
+    compile_multilib: "32",
+    defaults: ["strace_defaults"],
+}
+
+cc_binary {
+    name: "strace64",
+    compile_multilib: "64",
+    defaults: ["strace_defaults"],
+}
+
+cc_binary {
+    name: "strace",
+    defaults: ["strace_defaults"],
 }
