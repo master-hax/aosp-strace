@@ -34,6 +34,24 @@
       "parentUuid": "b27befe3_920ae5fe",
       "revId": "05030aba3dd5bd0e30c1162bab26b64b865b474a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "558a55ee_0318a87f",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-05-22T14:32:20Z",
+      "side": 1,
+      "message": "given that there\u0027s no good motivation for touching strace, and .bp files are cargo culted -- the last time someone did this[1] [maybe] with good reason for zlib, it ended up copied throughout the tree for no reason -- i think having an ignore list in your tooling makes more sense.\n\n____\n1. well, \"explicitly used thumb rather than arm\".",
+      "parentUuid": "19ae58c7_43e14a21",
+      "revId": "05030aba3dd5bd0e30c1162bab26b64b865b474a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
