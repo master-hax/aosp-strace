@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b27befe3_920ae5fe",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-05-22T14:04:39Z",
+      "side": 1,
+      "message": "this still doesn\u0027t answer the \"why bother?\" question...",
+      "revId": "05030aba3dd5bd0e30c1162bab26b64b865b474a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
