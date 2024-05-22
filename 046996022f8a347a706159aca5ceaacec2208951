@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bad2fb5_ce424bb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-05-22T11:47:12Z",
+      "side": 1,
+      "message": "it\u0027s not on user builds though.\n\n(and even if we do do this, since .bp files are copy \u0026 pasted by people who don\u0027t know what they\u0027re looking at, this would definitely need a comment in the .bp file itself.)",
+      "revId": "046996022f8a347a706159aca5ceaacec2208951",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
