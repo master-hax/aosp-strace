@@ -16,6 +16,24 @@
       "message": "this still doesn\u0027t answer the \"why bother?\" question...",
       "revId": "05030aba3dd5bd0e30c1162bab26b64b865b474a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19ae58c7_43e14a21",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2024-05-22T14:09:56Z",
+      "side": 1,
+      "message": "I\u0027m using profcollect data to automatically flag projects with zero / near-zero usage and mark them as `-Os`. Either we move `strace` to `-Os`, or we need to explicitly allow-list it in the profcollect automation. I would definitely prefer the former.",
+      "parentUuid": "b27befe3_920ae5fe",
+      "revId": "05030aba3dd5bd0e30c1162bab26b64b865b474a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
