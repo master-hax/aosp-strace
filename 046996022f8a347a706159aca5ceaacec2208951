@@ -16,6 +16,24 @@
       "message": "it\u0027s not on user builds though.\n\n(and even if we do do this, since .bp files are copy \u0026 pasted by people who don\u0027t know what they\u0027re looking at, this would definitely need a comment in the .bp file itself.)",
       "revId": "046996022f8a347a706159aca5ceaacec2208951",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef3edb7f_2452ffe4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2024-05-22T13:55:56Z",
+      "side": 1,
+      "message": "\u003e it\u0027s not on user builds though.\n\nAh, I didn\u0027t know this. It\u0027s free binary size saving, doesn\u0027t hurt doing this.\n\n\u003e (and even if we do do this, since .bp files are copy \u0026 pasted by people who don\u0027t know what they\u0027re looking at, this would definitely need a comment in the .bp file itself.)\n\nDone.",
+      "parentUuid": "0bad2fb5_ce424bb5",
+      "revId": "046996022f8a347a706159aca5ceaacec2208951",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
